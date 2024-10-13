@@ -1,0 +1,98 @@
+
+header{
+    background-color:#20bb6d;
+
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.navbar {
+    background-color:rgb(48, 43, 43); 
+    padding:0; 
+           
+}
+h1{
+    text-align: center;
+    background-color: (100, 100, 100);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    color:white;
+
+}
+#entrees{
+    background-color: darkolivegreen;
+    margin: right;
+    font-size: 20px;
+    
+}
+#plats{
+    background-color: hotpink;
+    font-size: 20px;
+}
+#desserts{
+    background-color: purple;
+    font-size: 20px;
+}
+#boissons{
+    background-color: red;
+    font-size: 20px;
+}
+h2{
+    background-color: grey;
+    text-align: center;
+
+}
+
+h4{
+text-align: center;
+background-color: grey  ;
+font-size: 20px;
+}
+li{
+    color: rgb(255, 255, 255);
+    text-align:left;
+    font-size: 20px;
+}
+body{
+    background-color:rgb(20, 233, 233);
+    
+}
+
+.navbar-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: px; 
+    text-align: center; 
+    font-size: 20px;
+    background-color: rgb(51, 44, 44);
+    
+          
+}
+.navbar-item {
+    display: inline-block;
+    margin: 0 20px; 
+    padding: px;
+    
+}
+.navbar-link {
+        color: #fff;
+        text-decoration-color: black; 
+        padding: 10px 15px; 
+        transition: background-color 0.3s; 
+        display: inline;      
+        margin-right: 20px; 
+
+    }
+legend{
+    background-color:yellow;
+}
+form{
+    background-color: orangered;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100px;
+    font-stretch: condensed;
+}
+

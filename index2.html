@@ -3,63 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu du Restaurant CHAHYA TAYBA</title>
+    <title>Menu du Restaurant CHEZ FOULEN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     
 </head>
-<body>
+<body class="body">
 
 <header>
-    <h1>--CHAHYA TAYBA--  </h1> <img src="chahya tayba.jpeg">
-    <nav>
-        <a href="#entrees">Entrées</a>
-        <a href="#plats">Plats Principaux</a>
-        <a href="#desserts">Desserts</a>
-        <a href="#boissons">Boissons</a>
+    <h1 class="h1">bienvenue dans notre Restaurant CHEZ FOULEN</h1>
+    <nav class="navbar">
+        <ul class="navbar-list">
+        <li class="navbar-item"><a href="#entrees" class="navbar-link">Entrées</a></li>
+        <li class="navbar-item"><a href="#plats" class="navbar-link">Plats Principaux</a></li>
+        <li class="navbar-item"><a href="#desserts" class="navbar-link">Desserts</a></li>
+        
+        </ul>
     </nav>
+
 </header>
 
 <main>
-    <section id="entrees" class="menu-section">
-        <h2>Entrées</h2>
-        <ul>
-            <li>Chorba à l'agneau--> 8DT</li>
-            <li>Ojja merguez -->10DT</li>
-            <li>Chorba au poisson--> 8Dt</li>
-        </ul>
-    </section>
+    <div class="div1">
+        <section id="entrees" class="menu-section">
+            <h2>Entrées</h2>
+            <ul class="entrees">
+                <li>Chorba à l'agneau--> 8DT</li><br><br>
+                <li>Ojja merguez -->10DT</li><br><br>
+                <li>Chorba au poisson--> 8Dt</li><br>
+            </ul>
+        </section>
+        
+    </div>
+   
+    <div class="div2">
+        <section id="plats" class="menu-section">
+            <h2>Plats Principaux</h2>
+            <ul>
+                <li>couscous manneni --> 21Dt</li><br><br>
+                <li> kaftaji--> 7Dt</li><br><br>
+                <li>Lablabi - 8Dt</li><br>
+            </ul>
+        </section>
 
-    <section id="plats" class="menu-section">
-        <h2>Plats Principaux</h2>
-        <ul>
-            <li>couscous manneni --> 21Dt</li>
-            <li> kaftaji--> 7Dt</li>
-            <li>Lablabi - 8Dt</li>
-        </ul>
-    </section>
+    </div>
 
-    <section id="desserts" class="menu-section">
-        <h2>Desserts</h2>
-        <ul>
-            <li>Tarte au citron --> 6Dt</li>
-            <li>Mousse au chocolat --> 7Dt</li>
-            <li>Crème caramel facile--> 8Dt</li>
-        </ul>
-    </section>
+    <div class="div3">
+        <section id="desserts" class="menu-section">
+            <h2>Desserts</h2>
+            <ul>
+                <li>Tarte au citron --> 6Dt</li><br><br>
+                <li>Mousse au chocolat --> 7Dt</li><br><br>
+                <li>Crème caramel facile--> 8Dt</li><br>
+            </ul>
+        </section>
 
-    <section id="boissons" class="menu-section">
-        <h2>Boissons</h2>
-        <ul>
-            <li>gazouz --> 5Dt</li>
-            <li>eau minerales 1/2L --> 0.7Dt</li>
-            <li>eau minerales 1L --> 1.1Dt</li>
-            <li>Jus d'orange --> 3Dt</li>
-        </ul>
-    </section>
+    </div>
+
+    
+    
 </main>
 
 <footer>
-    <p><h4>bienvenue à tout moment</h4> </p>
+    <p><h4>contactez nous sur +216 11 111 111</h4></p>
+    <p><h4>pour faire une commende  écrirez votre nom , prenom et numéro de telephone<br><br>
+         la commende sera prête dans 24h.<br><br></h4></p>
+    <form>
+        <fieldset>
+        <legend>
+            sasissez votre numero de telephone !
+    </legend>
+    telephone:  <input type="zone de texte" value=""><br><br>
+    nom:       <input type="zone de texte" value=""><br><br>
+    prenom:     <input type="zone de texte" value=""><br><br>
+    adresse postal:     <input type="zone de texte" value=""><br><br>
+     <input type="button" value="envoyer">  
+    <input type="button" value="annuler">
+</fieldset>
+    </form>
 </footer>
+<p><h4>bienvenue à tout moment !</h4> </p>
 
 </body>
 </html>
